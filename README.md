@@ -1,7 +1,5 @@
 ## PID-Temperature-Control-With-Arduino
 
-# Introduction
-
 Ever woken up cold in the winter mornings despite going to bed warm? To solve that, I designed a PID-controlled heater using an Arduino Uno. The system lets you select a desired temperature, which it maintains throughout the whole night, ensuring consistent comfort.
 
 
