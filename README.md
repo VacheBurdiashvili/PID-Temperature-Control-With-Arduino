@@ -12,5 +12,5 @@ While the heater is a small hotend rather than a full-room heater, the same cont
 - Added an emergency stop feature to prevent overheating, paying extra attention to safety and risk assessment.
 - Gained valuable experience in embedded systems, electronics, sensors, and PID control.
 
-## Demo Video (google drive) 
+## Demo Video (Google drive) 
 https://drive.google.com/file/d/1rdCdCOWQbntFVMdgdJ8dIeNnGaBQTtBa/view?usp=sharing
