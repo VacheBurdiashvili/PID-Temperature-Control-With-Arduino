@@ -1,16 +1,13 @@
-# PID Temperature Control with Arduino
+# My-Image-Classifier-CIFAR10
+# Introduction
+My very first Machine learning Project. I imported a CIFAR-10 dataset (10 image classes) and built a Convolutional Neural Network (CNN) model that achieved approximately 85% Accuracy.
 
-Ever woken up cold in the winter mornings despite going to bed warm? To solve that, I designed a PID-controlled heater using an Arduino Uno. 
-The system lets you select a desired temperature, which it maintains throughout the night, ensuring consistent comfort.
+# Motivation
+In my Second year of Information Engineering I took a course "Introduction to Machine Learning". I fell in love with the subject as we discussed classical (traditional) ML methods like Linear Regression, Logistic Regression, Decision Trees and others. However, deep learning and neural networks still seemed like a mystery. So, I decided to start an Image Classifier Project using CIFAR-10 Dataset.
 
-While the heater is a small hotend rather than a full-room heater, the same control logic could be applied to larger systems.
+# The process
+First of all, I used Jupyter notebook, imported useful libraries and dataset itself. I split the dataset into training, validation and testing. I scaled the images and afterwards, created an instance of a model and added several convolutional and dense neural layers. Then, I began training and tweaking several parameters until I could reach desired accuracy/precision. Except the cat part, (Checking the confusion matrix Accuracy of correctly classifying cat images were lower than other classes) I was satisfied with the results. Finally, I made a very simple and basic flask app to mimic a website.
 
-### Technical Highlights
+# What I learned/ My thoughts
+Through this project, I gained a solid understanding of how neural networks work and what happens behind the scenes in these frameworks. I experimented extensively, facing challenges like underfitting and overfitting. Using techniques such as data augmentation, adjusting filter parameters, and applying regularization, I was able to solve these issues. In the end, the model achieved almost 85% accuracy. (With more epochs and a GPU, I could have pushed this further.) However, my primary goal was not the highest accuracy possible, it was to gain knowledge and understanding of how these models work, identify potential problems, and apply critical thinking to solve them. Ultimately, I discovered that my interest in deep learning continues to grow.
 
-- Used a thermocouple sensor to get a temperature measurement, allowing the Arduino to operate accurately.
-- Tuned a PID controller to achieve a rise time of ~100 s, overshoot below 5% (0.5°C), settling time of 3 minutes, and minimal steady-state error (0–0.2°C).
-- Added an emergency stop feature to prevent overheating, paying extra attention to safety and risk assessment.
-- Gained valuable experience in embedded systems, electronics, sensors, and PID control.
-
-### Demo Video (Google drive) 
-https://drive.google.com/file/d/1rdCdCOWQbntFVMdgdJ8dIeNnGaBQTtBa/view?usp=sharing
