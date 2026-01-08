@@ -5,7 +5,7 @@ The system lets you select a desired temperature, which it maintains throughout 
 
 While the heater is a small hotend rather than a full room heater, the Same control logic could be applied to larger systems.
 
-## Technical Highlights:
+### Technical Highlights:
 
 • Used a thermocouple sensor to get a temperature measurement, allowing Arduino to operate accurately.
 
